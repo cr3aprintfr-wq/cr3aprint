@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formation Impression 3D Pro | Cr3aprint</title>
+    <title>Formation Technique | Cr3aprint - Montez en Compétence</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         .gradient-bg { background: radial-gradient(circle at top right, #f8fafc 0%, #ffffff 100%); }
-        .course-card:hover { transform: translateY(-8px); border-color: #2563eb; }
     </style>
 </head>
 <body class="gradient-bg text-slate-800 font-sans leading-relaxed">
@@ -23,47 +22,109 @@
             </div>
             <div class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-600">
                 <a href="audit.html" class="hover:text-blue-600 transition">Audit</a>
-                <a href="formation.html" class="hover:text-blue-600 transition">Formation</a>
+                <a href="formation.html" class="hover:text-blue-600 transition text-blue-600 font-bold">Formation</a>
                 <a href="depannage.html" class="hover:text-blue-600 transition">Dépannage</a>
                 <a href="contact.html" class="bg-slate-900 text-white px-5 py-2.5 rounded-full hover:bg-blue-600 transition shadow-md">Nous Contacter</a>
             </div>
         </div>
     </nav>
 
-    <header class="max-w-7xl mx-auto px-6 py-16">
-        <div class="bg-blue-600 rounded-[3rem] p-12 md:p-20 text-white relative overflow-hidden shadow-2xl">
-            <div class="relative z-10 max-w-2xl">
-                <span class="inline-block bg-white/20 px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest mb-6">Expertise à distance</span>
-                <h1 class="text-4xl md:text-6xl font-extrabold mb-6 italic leading-tight">Montez en compétence, <span class="text-blue-200">60 minutes à la fois.</span></h1>
-                <p class="text-lg text-blue-50 font-light mb-8">Formations ciblées pour les professionnels. Maîtrisez vos flux de travail sans quitter votre atelier.</p>
-                <div class="flex items-center gap-6">
-                    <div class="flex items-center gap-2">
-                        <i class="fas fa-clock text-blue-200"></i>
-                        <span class="text-sm font-semibold">Format 1 heure</span>
-                    </div>
-                    <div class="flex items-center gap-2">
-                        <i class="fas fa-video text-blue-200"></i>
-                        <span class="text-sm font-semibold">Live & Interactif</span>
-                    </div>
-                </div>
-            </div>
-            <div class="absolute right-[-10%] bottom-[-10%] w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
+    <header class="max-w-4xl mx-auto px-6 py-20 md:py-32 text-center">
+        <div class="inline-block bg-blue-50 text-blue-700 px-4 py-1 rounded-full text-sm font-bold mb-6 italic uppercase tracking-widest">
+            <i class="fas fa-graduation-cap mr-2"></i> Formation à la Demande
+        </div>
+        <h1 class="text-5xl md:text-6xl font-extrabold text-slate-900 leading-tight italic">
+            Maîtrisez <span class="text-blue-600">vos Machines</span>, <br>
+            réduisez les arrêts.
+        </h1>
+        <p class="mt-6 text-xl text-slate-500 max-w-3xl mx-auto font-light">
+            Nos modules de formation sont conçus pour les professionnels de l'industrie additive. Nous formons vos techniciens et opérateurs sur la maintenance préventive et l'optimisation des flux.
+        </p>
+        <div class="mt-10 flex justify-center gap-4">
+            <a href="contact.html" class="bg-blue-600 text-white px-8 py-4 rounded-xl text-lg font-bold hover:bg-slate-900 transition shadow-lg shadow-blue-200">
+                Demander un Programme
+            </a>
         </div>
     </header>
 
-    <section class="max-w-7xl mx-auto px-6 py-12">
-        <div class="grid md:grid-cols-2 gap-12">
+    <section class="max-w-7xl mx-auto px-6 py-20 border-t border-slate-100">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-extrabold text-slate-900">Nos Modules Clés (60 minutes)</h2>
+            <p class="text-lg text-slate-500 mt-3">Sessions à distance ou sur site, focalisées sur l'acquisition de compétences pratiques et immédiatement applicables.</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
             
-            <div class="bg-white border border-slate-100 rounded-[2.5rem] p-10 shadow-sm course-card transition-all duration-300">
-                <div class="w-16 h-16 bg-purple-50 text-purple-600 rounded-2xl flex items-center justify-center mb-6">
-                    <i class="fas fa-flask text-2xl"></i>
-                </div>
-                <h2 class="text-3xl font-bold mb-4">Spécialisation Résine (SLA/DLP)</h2>
-                <p class="text-slate-500 mb-8">Optimisez vos réglages d'exposition, la gestion des supports complexes et le post-traitement industriel pour une précision micrométrique.</p>
-                
-                <ul class="space-y-4 mb-10">
-                    <li class="flex items-start gap-3">
-                        <i class="fas fa-check-circle text-purple-500 mt-1"></i>
-                        <div><p class="font-bold text-sm text-slate-700 uppercase tracking-wide">Module 1 : Préparation & Slicing</p></div>
-                    </li>
-                    <li class="flex
+            <div class="bg-white p-8 rounded-2xl shadow-xl border border-slate-100">
+                <div class="text-blue-600 text-3xl mb-4"><i class="fas fa-tools"></i></div>
+                <h3 class="text-2xl font-bold text-slate-900 mb-3">Maintenance Préventive FDM</h3>
+                <p class="text-slate-600 mb-4">
+                    Apprenez les protocoles de nettoyage, de lubrification et de recalibration pour assurer la longévité de vos machines FDM (Extrudeurs, Axes Z, Têtes d'impression).
+                </p>
+                <ul class="list-disc pl-5 text-sm text-slate-500 space-y-1">
+                    <li>Gestion du flux d'extrusion</li>
+                    <li>Remplacement des pièces d'usure</li>
+                    <li>Alignement du plateau et du châssis</li>
+                </ul>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl shadow-xl border border-slate-100">
+                <div class="text-blue-600 text-3xl mb-4"><i class="fas fa-flask"></i></div>
+                <h3 class="text-2xl font-bold text-slate-900 mb-3">Sécurité et Post-Traitement Résine</h3>
+                <p class="text-slate-600 mb-4">
+                    Formation cruciale sur les risques chimiques, les protocoles de nettoyage des bacs de résine et l'optimisation des cycles de lavage/UV pour des pièces conformes.
+                </p>
+                <ul class="list-disc pl-5 text-sm text-slate-500 space-y-1">
+                    <li>Manipulation sécurisée des photopolymères</li>
+                    <li>Diagnostic des défauts d'exposition LCD/DLP</li>
+                    <li>Recyclage et élimination des déchets</li>
+                </ul>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl shadow-xl border border-slate-100">
+                <div class="text-blue-600 text-3xl mb-4"><i class="fas fa-puzzle-piece"></i></div>
+                <h3 class="text-2xl font-bold text-slate-900 mb-3">Optimisation du Slicing et du Flow</h3>
+                <p class="text-slate-600 mb-4">
+                    Tirez le meilleur de votre logiciel de tranchage (Cura, PrusaSlicer, Chitubox, etc.). Réglage des supports, vitesse et température pour des résultats professionnels.
+                </p>
+                <ul class="list-disc pl-5 text-sm text-slate-500 space-y-1">
+                    <li>Paramètres pour matériaux techniques (Nylon, Carbone)</li>
+                    <li>Gestion des tolérances dimensionnelles</li>
+                    <li>Réduction des temps d'impression</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-4xl mx-auto px-6 py-20">
+        <div class="bg-slate-900 text-white p-12 rounded-[2.5rem] text-center shadow-2xl">
+            <h2 class="text-3xl font-bold italic mb-3">Prêt à élever le niveau de votre atelier ?</h2>
+            <p class="text-slate-400 mb-8">
+                Discutez avec un expert pour construire le programme de formation idéal, adapté aux spécificités de vos machines et aux objectifs de votre équipe.
+            </p>
+            <a href="contact.html" class="bg-blue-600 text-white px-8 py-4 rounded-xl text-lg font-bold hover:bg-white hover:text-slate-900 transition shadow-lg uppercase tracking-widest">
+                Contacter un Formateur
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 py-12 px-6">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8 border-b border-slate-800 pb-12">
+            <div class="text-white">
+                <span class="font-bold text-xl uppercase tracking-widest">Cr3a<span class="text-blue-400">print</span></span>
+                <p class="text-slate-400 text-sm mt-2 font-mono uppercase tracking-widest italic">Atelier certifié - Standards 2025</p>
+            </div>
+            <div class="flex flex-wrap gap-6 text-slate-400 text-sm italic font-bold uppercase tracking-widest text-[10px]">
+                <a href="audit.html" class="hover:text-white transition">Audit</a>
+                <a href="formation.html" class="text-blue-400 hover:text-white transition">Formation</a>
+                <a href="depannage.html" class="hover:text-white transition">Dépannage</a>
+                <a href="contact.html" class="hover:text-white transition">Contact</a>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto mt-8 text-center text-slate-500 text-[10px] uppercase tracking-[0.3em]">
+            © 2025 Cr3aprint - Excellence de la production additive
+        </div>
+    </footer>
+
+</body>
+</html>
