@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cr3aprint | Solutions 3D Professionnelles</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .gradient-bg { background: radial-gradient(circle at top right, #f0f7ff 0%, #ffffff 100%); }
+        .card-hover:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.05); }
+    </style>
+</head>
+<body class="gradient-bg text-slate-800 font-sans leading-relaxed">
+
+    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <a href="index.html" class="flex items-center gap-2">
+                    <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
+                        <span class="text-white font-bold text-xs">C3</span>
+                    </div>
+                    <span class="text-xl font-bold tracking-tight text-slate-900 uppercase">Cr3a<span class="text-blue-600">print</span></span>
+                </a>
+            </div>
+            <div class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-600">
+                <a href="audit.html" class="hover:text-blue-600 transition">Audit</a>
+                <a href="formation.html" class="hover:text-blue-600 transition">Formation</a>
+                <a href="depannage.html" class="hover:text-blue-600 transition">Dépannage</a>
+                <a href="contact.html" class="bg-slate-900 text-white px-5 py-2.5 rounded-full hover:bg-blue-600 transition shadow-md">Nous Contacter</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
+        <div>
+            <span class="inline-block bg-blue-50 text-blue-700 px-4 py-1 rounded-full text-sm font-bold mb-6 italic">Partenaire Industriel depuis 2024</span>
+            <h1 class="text-5xl md:text-6xl font-extrabold text-slate-900 leading-[1.1] mb-6">
+                Assurez la continuité de votre <span class="text-blue-600">production 3D.</span>
+            </h1>
+            <p class="text-lg text-slate-600 mb-8 max-w-lg">
+                Cr3aprint accompagne les professionnels dans la maintenance préventive, le dépannage expert et la formation technique. Un parc entretenu, c'est une entreprise qui avance.
+            </p>
+            <div class="flex gap-4">
+                <a href="contact.html" class="bg-blue-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-blue-700 transition shadow-lg shadow-blue-200">Demander un audit gratuit</a>
+                <a href="#services" class="border border-slate-200 bg-white px-8 py-4 rounded-xl font-bold hover:bg-slate-50 transition">Nos services</a>
+            </div>
+        </div>
+        
+        <div class="relative">
+            <div class="aspect-square bg-slate-200 rounded-[3rem] overflow-hidden shadow-2xl border-[12px] border-white">
+                <img src="labo_cr3aprint.png" 
+                     alt="Laboratoire Cr3aprint spécialisé en maintenance et réparation 3D" 
+                     class="w-full h-full object-cover">
+            </div>
+            
+            <div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl border border-slate-100 hidden md:block">
+                <p class="text-blue-600 font-bold text-3xl">99%</p>
+                <p class="text-slate-500 text-sm">Disponibilité parc client</p>
+            </div>
+        </div>
+    </header> <section id="services" class="max-w-7xl mx-auto px-6 py-24">
+        
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold text-slate-900 mb-4 font-mono uppercase tracking-widest">Nos Piliers d'Accompagnement</h2>
+            <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8 mb-24">
+            <a href="depannage.html" class="bg-white p-10 rounded-3xl border border-slate-100 card-hover transition group">
+                <div class="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center mb-6 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                    <i class="fas fa-screwdriver-wrench text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-slate-900 italic uppercase tracking-tighter">SAV & Dépannage</h3>
+                <p class="text-slate-500 text-sm italic">Atelier antistatique ou intervention sur site pour vos machines en arrêt.</p>
+            </a>
+
+            <a href="formation.html" class="bg-white p-10 rounded-3xl border border-slate-100 card-hover transition group">
+                <div class="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center mb-6 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                    <i class="fas fa-video text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-slate-900 italic uppercase tracking-tighter">Formation 60'</h3>
+                <p class="text-slate-500 text-sm italic">Montée en compétence à distance par tranche d'une heure.</p>
+            </a>
+
+            <a href="audit.html" class="bg-white p-10 rounded-3xl border border-slate-100 card-hover transition group">
+                <div class="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center mb-6 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                    <i class="fas fa-chart-line text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-slate-900 italic uppercase tracking-tighter">Audit Stratégique</h3>
+                <p class="text-slate-500 text-sm italic">Optimisation de flux et industrialisation de votre parc.</p>
+            </a>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-slate-900 text-white rounded-[2.5rem] p-12 relative overflow-hidden group shadow-xl">
+                <div class="relative z-10">
+                    <span class="text-blue-400 font-bold uppercase tracking-[0.2em] text-[10px] mb-4 block italic">Technologie Filaire</span>
+                    <h3 class="text-3xl font-bold mb-4 italic">Impression FDM</h3>
+                    <p class="text-slate-400 font-light mb-6">Expertise matériaux techniques : PLA, TPU, Nylon et Carbone. Calibration haute précision pour pièces fonctionnelles.</p>
+                    <ul class="text-sm space-y-2 italic text-slate-500">
+                        <li>• Maintenance extrudeur & tête</li>
+                        <li>• Gestion du retrait thermique</li>
+                    </ul>
+                </div>
+                <i class="fas fa-braid absolute right-[-20px] bottom-[-20px] text-[12rem] text-white/5 group-hover:text-white/10 transition-all duration-700 transform group-hover:rotate-12"></i>
+            </div>
+
+            <div class="bg-blue-600 text-white rounded-[2.5rem] p-12 relative overflow-hidden group shadow-xl shadow-blue-100">
+                <div class="relative z-10">
+                    <span class="text-blue-200 font-bold uppercase tracking-[0.2em] text-[10px] mb-4 block italic">Technologie Photopolymère</span>
+                    <h3 class="text-3xl font-bold mb-4 italic">Impression Résine</h3>
+                    <p class="text-blue-100 font-light mb-6">Précision micrométrique via SLA et DLP. Maintenance bac/écran, réglage d'exposition et sécurisation du post-traitement.</p>
+                    <ul class="text-sm space-y-2 italic text-blue-200/60">
+                        <li>• SAV écrans LCD haute résolution</li>
+                        <li>• Protocole de nettoyage industriel</li>
+                    </ul>
+                </div>
+                <i class="fas fa-flask absolute right-[-20px] bottom-[-20px] text-[12rem] text-white/5 group-hover:text-white/10 transition-all duration-700 transform group-hover:-rotate-12"></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-6 py-20 border-t border-slate-100">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold italic uppercase tracking-widest text-slate-900">Solutions par <span class="text-blue-600">Secteur</span></h2>
+        </div>
+        
+        <div class="grid md:grid-cols-4 gap-4">
+            <div class="p-6 bg-white border border-slate-100 rounded-2xl text-center hover:border-blue-500 transition shadow-sm">
+                <i class="fas fa-tooth text-blue-600 mb-4 text-xl"></i>
+                <h4 class="font-bold text-sm uppercase italic">Dentaire</h4>
+                <p class="text-[10px] text-slate-500 mt-2 italic">Précision chirurgicale & Résines biocompatibles.</p>
+            </div>
+            <div class="p-6 bg-white border border-slate-100 rounded-2xl text-center hover:border-blue-500 transition shadow-sm">
+                <i class="fas fa-industry text-blue-600 mb-4 text-xl"></i>
+                <h4 class="font-bold text-sm uppercase italic">Industrie & BE</h4>
+                <p class="text-[10px] text-slate-500 mt-2 italic">Prototypage rapide & Outillage technique.</p>
+            </div>
+            <div class="p-6 bg-white border border-slate-100 rounded-2xl text-center hover:border-blue-500 transition shadow-sm">
+                <i class="fas fa-shoe-prints text-blue-600 mb-4 text-xl"></i>
+                <h4 class="font-bold text-sm uppercase italic">Orthopédie</h4>
+                <p class="text-[10px] text-slate-500 mt-2 italic">Semelles & Orthèses personnalisées.</p>
+            </div>
+            <div class="p-6 bg-white border border-slate-100 rounded-2xl text-center hover:border-blue-500 transition shadow-sm">
+                <i class="fas fa-landmark text-blue-600 mb-4 text-xl"></i>
+                <h4 class="font-bold text-sm uppercase italic">Collectivités</h4>
+                <p class="text-[10px] text-slate-500 mt-2 italic">Réparation d'objets & Ateliers municipaux.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 py-12 px-6">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8 border-b border-slate-800 pb-12">
+            <div class="text-white">
+                <span class="font-bold text-xl uppercase tracking-widest">Cr3a<span class="text-blue-400">print</span></span>
+                <p class="text-slate-400 text-sm mt-2 font-mono uppercase tracking-widest italic">Atelier certifié - Standards 2025</p>
+            </div>
+            <div class="flex flex-wrap gap-6 text-slate-400 text-sm italic font-bold uppercase tracking-widest text-[10px]">
+                <a href="depannage.html" class="hover:text-white transition">Dépannage</a>
+                <a href="formation.html" class="hover:text-white transition">Formation</a>
+                <a href="audit.html" class="hover:text-white transition">Audit</a>
+                <a href="contact.html" class="text-blue-400 hover:text-white transition">Contact</a>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto mt-8 text-center text-slate-500 text-[10px] uppercase tracking-[0.3em]">
+            © 2025 Cr3aprint - Excellence de la production additive
+        </div>
+    </footer>
+
+</body>
+</html>

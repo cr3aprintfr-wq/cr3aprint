@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dépannage & SAV 3D | Cr3aprint</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .gradient-bg { background: radial-gradient(circle at top right, #f8fafc 0%, #ffffff 100%); }
+        .service-card:hover { transform: translateY(-8px); border-color: #2563eb; }
+    </style>
+</head>
+<body class="gradient-bg text-slate-800 font-sans leading-relaxed">
+
+    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <a href="index.html" class="flex items-center gap-2">
+                    <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-xs">C3</div>
+                    <span class="text-xl font-bold tracking-tight text-slate-900 uppercase">Cr3a<span class="text-blue-600">print</span></span>
+                </a>
+            </div>
+            <div class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-600">
+                <a href="index.html" class="hover:text-blue-600 transition">Accueil</a>
+                <a href="formation.html" class="hover:text-blue-600 transition">Formation</a>
+                <a href="audit.html" class="hover:text-blue-600 transition">Audit</a>
+                <a href="contact.html" class="bg-slate-900 text-white px-5 py-2.5 rounded-full hover:bg-blue-600 transition shadow-md">Ouvrir un ticket</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="max-w-7xl mx-auto px-6 py-16 text-center">
+        <h1 class="text-4xl md:text-6xl font-extrabold text-slate-900 mb-6 italic leading-tight">
+            Récupérez vos capacités de <span class="text-blue-600">production.</span>
+        </h1>
+        <p class="text-lg text-slate-500 max-w-2xl mx-auto font-light leading-relaxed">
+            Dépannage réactif et précis sur toutes vos technologies FDM et Résine. <br>Choisissez le mode d'intervention adapté à votre urgence.
+        </p>
+    </header>
+
+    <section class="max-w-7xl mx-auto px-6 py-12">
+        <div class="grid md:grid-cols-2 gap-12">
+            
+            <div class="bg-white border border-slate-100 rounded-[2.5rem] p-10 shadow-sm service-card transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="w-16 h-16 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center mb-6">
+                        <i class="fas fa-warehouse text-2xl"></i>
+                    </div>
+                    <h2 class="text-3xl font-bold mb-4">SAV en Atelier</h2>
+                    <p class="text-slate-500 mb-8">Confiez-nous votre machine pour une intervention complète. Idéal pour les réparations lourdes nécessitant une calibration longue en milieu tempéré.</p>
+                    
+                    <ul class="space-y-4 mb-10">
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-camera text-blue-500 mt-1"></i>
+                            <div><p class="text-sm font-semibold italic">Suivi visuel : Photos et vidéos de l'intervention envoyées par mail.</p></div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-shield-alt text-blue-500 mt-1"></i>
+                            <div><p class="text-sm font-semibold italic">Normes ESD : Établis antistatiques pour préserver l'électronique.</p></div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-vial text-blue-500 mt-1"></i>
+                            <div><p class="text-sm font-semibold italic">Validation : Remise avec test d'impression certifié.</p></div>
+                        </li>
+                    </ul>
+                </div>
+                <a href="contact.html" class="inline-block w-full text-center bg-blue-600 text-white py-4 rounded-xl font-bold hover:bg-blue-700 transition shadow-lg shadow-blue-100">Expédier ma machine</a>
+            </div>
+
+            <div class="bg-white border border-slate-100 rounded-[2.5rem] p-10 shadow-sm service-card transition-all duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="w-16 h-16 bg-slate-900 text-white rounded-2xl flex items-center justify-center mb-6">
+                        <i class="fas fa-truck text-2xl"></i>
+                    </div>
+                    <h2 class="text-3xl font-bold mb-4">Dépannage sur site</h2>
+                    <p class="text-slate-500 mb-8">Nous intervenons directement dans votre entreprise ou atelier pour réduire au maximum l'arrêt de vos lignes de production.</p>
+                    
+                    <ul class="space-y-4 mb-10">
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-file-invoice text-slate-700 mt-1"></i>
+                            <div><p class="text-sm font-semibold italic">Devis transparent : Déplacement et main d’œuvre inclus.</p></div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-store text-slate-700 mt-1"></i>
+                            <div><p class="text-sm font-semibold italic">Conseil pièces : Orientation vers les meilleurs revendeurs certifiés.</p></div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-wrench text-slate-700 mt-1"></i>
+                            <div><p class="text-sm font-semibold italic">Maintenance curative : Entretien immédiat de vos machines.</p></div>
+                        </li>
+                    </ul>
+                </div>
+                <a href="contact.html" class="inline-block w-full text-center bg-slate-900 text-white py-4 rounded-xl font-bold hover:bg-blue-600 transition shadow-lg">Demander une intervention</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 py-12 px-6 mt-12">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center text-white/50 text-sm">
+            <p>© 2025 Cr3aprint - SAV & Dépannage Haute Précision</p>
+            <div class="flex gap-6 mt-4 md:mt-0 italic uppercase tracking-widest text-xs font-bold">
+                <a href="index.html" class="hover:text-white">Accueil</a>
+                <a href="contact.html" class="hover:text-white text-blue-400">Support Technique</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
